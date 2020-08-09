@@ -1,0 +1,19 @@
+* {
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	outline: none;
+	box-shadow: none;
+	color: #fff;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	overflow-x: hidden;
+}
