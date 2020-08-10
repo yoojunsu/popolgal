@@ -1,36 +1,46 @@
-<?php
-include_once $_SERVER['DOCUMENT_ROOT']."/mypogal/_libs/initial.php";
-mypogal::log();
-?>
-<div class="logo">
-	<h1>YJS</h1>
+<div class="header-title-wrap">
+	<h1>
+		<a href="#none">
+			MI BUSINESS
+		</a>
+	</h1>
 </div>
-<div class="menu-bar">
-	<div class="hamburger-menu-wrap">
-		<span class="line top"></span>
-		<span class="line mid"></span>
-		<span class="line bottom"></span>
-	</div>	
-	<ul>
+<div class="hamburger-menu-wrap">
+	<span class="line top"></span>
+	<span class="line mid"></span>
+	<span class="line bottom"></span>
+</div>	
+<div class="header-nav-wrap">
+	<ul class="nav">
 		<li>
-			<span>01</span> 
-			MAIN
+			<a href="http://genesis.popol.website/">HOME</a>
 		</li>
 		<li>
-			<span>02</span> 
-			ABOUT
+			<a href="#none" id="popol-menu">
+				CONTENT-Portpolio
+				<span>+</span>
+			</a>
+			<ul class="sub-nav">
+				<li>
+					<a href="#none">GOOD TRAVEL</a>
+				</li>
+				<li>
+					<a href="#none">MI BUSINESS</a>
+				</li>
+				<li>
+					<a href="#none">Catch Digda!</a>
+				</li>
+				<li>
+					<a href="#none">KAKAO FRIEND</a>
+				</li>
+				<li>
+					<a href="#none">PORTPOLIO SITE</a>
+				</li>
+			</ul>
 		</li>
 		<li>
-			<span>03</span> 
-			PORTPOLIO
-		</li>
-		<li>
-			<span>04</span> 
-			CONTACT
+			<a href="#none">CONTENT-Working</a>
 		</li>
 	</ul>
-	<div class="footer">
-		<p>본 웹사이트는 크롬 웹브라우저 기반으로 제작되었습니다.</p>
-		<p>작업물은 모두 상업적 용도가 아닌 포트폴리오 용도로 제작되었습니다.</p>
-	</div>
 </div>
+

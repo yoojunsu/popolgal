@@ -1,160 +1,53 @@
-html {
-	font-size: 9px;
-}
-
-/** 헤더 저해상도 **/
-.menu-bar {
-	width: 50px;
-}
-
-.hamburger-menu-wrap {
-	left: 10px;
-}
-
-.line {
-	width: 30px;
-}
-
-/** 프로필 저해상도**/
-.about-profile {
-	grid-template-areas: ".";
-	grid-gap: 20px;
-}
-
-.profile-text {
+.section1-content1 {
+	max-width: 100%;
 	text-align: center;
 }
 
-.profile-text > p:last-child {
-	text-align: left;
+.section1-content2 {
+	height: 500px;
 }
 
-.text-bar {
-	width: 100%;
+.flying-window {
+	left: 50%;
 }
 
-
-/** 포트폴리오 저해상도 **/
-.popol-item > li {
-	margin: 50px 0;
-}
-
-.popol-item > li:nth-of-type(1) {
-	margin: 80px 0 50px 0;
-}
-
-.popol-text-box {
-	padding: 50px;
-}
-
-/** 컨택트 저해상도 **/
-.form-filed {
-	grid-gap: 30px;
-}
-
-.name-email-zonewrap {
-	grid-template-areas: ".";
-}
-
-.filed-zone > input, textarea {
-	min-width: 400px;
-}
-
-/** 가로 해상도 500px **/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 	html {
-		font-size: 8px;
+		font-size: 9px;
 	}
 	
-	.menu-bar {
-		border: 0;
-		background: none;
-	}
-	
-	.menu-bar-open {
-		width: 100% !important;
-	}
-	
-	.scrolldown-ani {
-		bottom: 15%;
-	}
-	
-	.profile-img > img {
-		max-width: 300px;
-	}
-	
-	.box-inner {
-		padding: 30px;
-	}
-	
-	.keyword-icon {
-		grid-template-areas: ". .";
-		grid-gap: 30px;
-	}
-	
-	.keyword > span {
-		margin: 10px;
-	}
-	
-	.popol-text-box > .popol-text {
+	.section1-content-text-wrap {
 		text-align: center;
 	}
 	
-	.popol-text-linkbox {
-		padding: 30px;
-	}
-}
-
-/** 가로 해상도 420px **/
-@media screen and (max-width: 420px) {
-	html {
-		font-size: 7px;
+	.flying-window {
+		max-width: 300px;
+		max-height: 300px;	
 	}
 	
-	.main-title {
-		height: 707px;
-	}
-	
-	.iam-me > p:nth-of-type(2) {
-		padding: 10px 0 10px 23px;
-	}
-	
-	.iam-me > p:nth-of-type(3) {
-		padding: 0 0 0 23px;
-	}
-	
-	.iam-me > p:nth-of-type(4) {
-		padding: 0 0 0 23px;
-	}
-	
-	.popol-text-linkbox {
-		grid-template-areas: ".";
-	}
-	
-	.popol-text-linkbox > a {
-		margin: 10px 20px;
-	}
-	
-	.filed-zone > input, textarea {
-		min-width: 300px;
-	}
-	
-	.form-buttonwrap > li > input {
+	.flying-window-content {
 		width: 150px;
+		height: 150px;
+	}
+	
+	.section2-wrap {
+		grid-template-areas: ".";
+		justify-content: center;
+	}
+	
+	.section3-text-wrap {
+		width: 80%;
 	}		
 }
 
-@media screen and (max-width: 320px) {
-	html {
-		font-size: 6px;
-	}
-	
-	.main-title {
-		height: 550px;
-	}
-	
-	.menu-bar > ul > li {
-		margin: 40px 50px;
-	}
+@media screen and (max-width: 420px) {
+	.header {
+		padding: 20px 13px;
+	}		
 }
 
+@media screen and (max-width: 321px) {
+	html {
+		font-size: 8px;
+	}
+}
