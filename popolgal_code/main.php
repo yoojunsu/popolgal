@@ -171,36 +171,36 @@
 		<ul class="popol-item">
 			<li class="responsive" id="popol-content1">
 				<div class="popol-img">
-					<img src="/img/project-kakao.png" alt="포트폴리오-카카오">
+					<img src="/img/project-goodtravel.png" alt="포트폴리오-굿트레블">
 				</div>
 				<div class="popol-text-box">
 					<div class="popol-text">
 						<span>01.</span>
-						<p>KAKAO FRIEND :</p>
+						<p>GOOD TRAVEL :</p>
 						<p>RESPONSIVE- Web (반응형 웹)</p>
-						<p>퍼블리싱 100%, 리뉴얼(MAIN,프렌즈샵), 메인,서브페이지 제작</p>
+						<p>#여행사 사이트 자체 제작</p>
 						<p class="text-bar"></p>
 						<div class="popol-text-linkbox">
-							<a href="http://kakao.popol.website/" target="_blank" title="새창으로 열기">VIEW SITE</a>
-							<a href="#" target="_blank" title="새창으로 열기">VIEW CODE (GitHub)</a>
+							<a href="http://verygoodtour.popol.website/">VIEW SITE</a>
+							<a href="https://github.com/yoojunsu/goodtravel">VIEW CODE (GitHub)</a>
 						</div>
 					</div>
 				</div>
 			</li>
 			<li class="responsive" id="popol-content2">
 				<div class="popol-img">
-					<img src="/img/project-gv80.png" alt="포트폴리오-제네시스 gv80">
+					<img src="/img/project-workblog.png" alt="포트폴리오-워킹 블로그">
 				</div>						
 				<div class="popol-text-box">
 					<div class="popol-text">
 						<span>02.</span>
-						<p>GENESIS-GV80 :</p>
+						<p>MI BUSINESS :</p>
 						<p>RESPONSIVE- Web (반응형 웹)</p>
-						<p>퍼블리싱 100%, 리뉴얼, 광고</p>
+						<p>#무료 웹디자인 시안 참고 퍼블리싱 사이트</p>
 						<p class="text-bar"></p>
 						<div class="popol-text-linkbox">
-							<a href="http://genesis.popol.website/" target="_blank" title="새창으로 열기">VIEW SITE</a>
-							<a href="#" target="_blank" title="새창으로 열기">VIEW CODE (GitHub)</a>
+							<a href="http://genesis.popol.website/">VIEW SITE</a>
+							<a href="#none" target="_blank" title="새창으로 열기">VIEW CODE (GitHub)</a>
 						</div>
 					</div>
 				</div>		
@@ -214,29 +214,47 @@
 						<span>03.</span>
 						<p>Catch DigDa! :</p>
 						<p>PC- Web Game(웹 게임)</p>
-						<p>PC버전 웹 게임, 자바스크립트 and 제이쿼리 이용한 기능 구현</p>
+						<p>#PC버전 웹 게임</p>
 						<p class="text-bar"></p>
 						<div class="popol-text-linkbox">
-							<a href="http://catchmole.popol.website/" target="_blank" title="새창으로 열기">VIEW SITE</a>
-							<a href="#" target="_blank" title="새창으로 열기">VIEW CODE (GitHub)</a>
+							<a href="http://catchmole.popol.website/">VIEW SITE</a>
+							<a href="https://github.com/yoojunsu/catchdigda">VIEW CODE (GitHub)</a>
 						</div>
 					</div>
 				</div>
 			</li>
 			<li class="responsive" id="popol-content4">
 				<div class="popol-img">
+					<img src="/img/project-kakao.png" alt="포트폴리오-카카오">
+				</div>
+				<div class="popol-text-box">
+					<div class="popol-text">
+						<span>04.</span>
+						<p>KAKAO FRIEND :</p>
+						<p>RESPONSIVE- Web (반응형 웹)</p>
+						<p>#카카오프렌즈 리뉴얼 사이트</p>
+						<p class="text-bar"></p>
+						<div class="popol-text-linkbox">
+							<a href="http://kakao.popol.website/">VIEW SITE</a>
+							<a href="https://github.com/yoojunsu/kakaofriend">VIEW CODE (GitHub)</a>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="responsive" id="popol-content5">
+				<div class="popol-img">
 					<img src="/img/popol-popol.png" alt="포트폴리오-갤러리사이트">
 				</div>						
 				<div class="popol-text-box">
 					<div class="popol-text">
-						<span>04.</span>
+						<span>05.</span>
 						<p>PORTPOLIO SITE :</p>
 						<p>RESPONSIVE- Web (반응형 웹)</p>
-						<p>퍼블리싱 100%, 포트폴리오 갤러리</p>
+						<p>#포트폴리오 갤러리 사이트</p>
 						<p class="text-bar"></p>
 						<div class="popol-text-linkbox">
-							<a href="http://joroki.popol.website/" target="_blank" title="새창으로 열기">VIEW SITE</a>
-							<a href="#" target="_blank" title="새창으로 열기">VIEW CODE (GitHub)</a>
+							<a href="http://joroki.popol.website/">VIEW SITE</a>
+							<a href="https://github.com/yoojunsu/popolgal">VIEW CODE (GitHub)</a>
 						</div>
 					</div>
 				</div>		
@@ -302,10 +320,10 @@
 					<a href="#"><i class="fa fa-facebook-square"></i></a>
 				</li>
 				<li>
-					<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/joroki__/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 				</li>
 				<li>
-					<a href="#" title="새창으로 열기"><i class="fa fa-github" aria-hidden="true"></i></a>
+					<a href="https://github.com/yoojunsu"><i class="fa fa-github" aria-hidden="true"></i></a>
 				</li>
 			</ul>
 		</div>

@@ -1,4 +1,12 @@
 $(function(){
+	// IE 접속 불가 코드
+	var agent = navigator.userAgent.toLowerCase();
+	if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1) ) {
+	 location.href = "/noie.html";
+	}
+	else {
+	  console.log("it's not IE");
+	}
 	// 사이트 접속시 타이틀 출력 
 	$(".title > h1").animate({
 		opacity: 1
@@ -109,6 +117,7 @@ $(function(){
 	scrEffect("#popol-content2", "content-fade1");
 	scrEffect("#popol-content3", "content-fade1");
 	scrEffect("#popol-content4", "content-fade1");
+	scrEffect("#popol-content5", "content-fade1");
 	scrEffect(".contact-title", "content-fade1");
 	scrEffect(".contact-item > p", "content-fade1");
 	scrEffect(".contact-form", "content-fade3");
